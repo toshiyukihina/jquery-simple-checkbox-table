@@ -27,35 +27,11 @@ module.exports = function(grunt) {
         ]
       }
     },
-    qunit: {
-      options: {
-        timeout: 30000,
-        "--web-security": "no",
-        coverage: {
-          src: ["dist/<%= pkg.name %>.js"],
-          instrumentedFiles: "tmp/",
-          lcovReport: "coverage/",
-          linesThresholdPct: 0
-        }
-      },
-      files: ["test/index.html"]
-    },
-    coveralls: {
-      options: {
-        // dont fail if coveralls fails
-        force: true
-      },
-      main_target: {
-        src: "coverage/lcov.info"
-      }
-    },
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks("grunt-coveralls");
-  grunt.loadNpmTasks("grunt-qunit-istanbul");
   grunt.loadNpmTasks("grunt-contrib-uglify");
 
   // Default task.
-  grunt.registerTask("default", ["qunit", "uglify"]);
+  grunt.registerTask("default", ["uglify"]);
 };

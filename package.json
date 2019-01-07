@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "description": "Super simple checkbox table, which is provided as jQuery plugin.",
   "scripts": {
-    "test": "grunt qunit",
-    "uglify": "grunt uglify",
-    "coveralls": "grunt coveralls"
+    "dist": "grunt",
+    "uglify": "grunt uglify"
   },
   "repository": {
     "type": "git",
