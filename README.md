@@ -2,7 +2,7 @@
 
 Super simple checkbox table, which is provided as jQuery plugin.
 
-![simple_checkbox_table_screenshot](https://user-images.githubusercontent.com/1883527/50758504-b6f62800-12a5-11e9-9d5b-52720fac6bab.gif)
+![simple_checkbox_table_screenshot](https://user-images.githubusercontent.com/1883527/50759761-405b2980-12a9-11e9-9a60-9125748d2a00.gif)
 
 # API
 
@@ -18,7 +18,9 @@ $("table").simpleCheckboxTable();
 
 ## Events
 
-### `.onCheckedStateChanged($checkbox)`
+You can pass the event handler on initialization.
+
+### `function onCheckedStateChanged($checkbox)`
 
 Triggered when the checked state is changed.
 
