@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Simple Checkbox Table demo</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../src/jquery.simple-checkbox-table.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+       $("table#demo").simpleCheckboxTable();
+     });
+    </script>
+  </head>
+  <body>
+    <h1>jQuery Simple Checkbox Table demo</h1>
+
+    <table id="demo">
+      <thead>
+        <tr>
+          <th><input type="checkbox"></th>
+          <th>Name</th>
+          <th>e-mail</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox"></td>
+          <td>hoge</td>
+          <td>hoge@hoge.com</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox"></td>
+          <td>foo</td>
+          <td>foo@foo.com</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox"></td>
+          <td>bar</td>
+          <td>bar@bar.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>
