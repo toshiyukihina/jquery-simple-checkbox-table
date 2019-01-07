@@ -2,6 +2,34 @@
 
 Super simple checkbox table, which is provided as jQuery plugin.
 
+![simple_checkbox_table_screenshot](https://user-images.githubusercontent.com/1883527/50758504-b6f62800-12a5-11e9-9d5b-52720fac6bab.gif)
+
+# API
+
+## Methods
+
+### `.simpleCheckboxTable()`
+
+Initialize the simple checkbox table.
+
+```
+$("table").simpleCheckboxTable();
+```
+
+## Events
+
+### `.onCheckedStateChanged($checkbox)`
+
+Triggered when the checked state is changed.
+
+```
+$("table").simpleCheckboxTable({
+  onCheckedStateChanged: function($checkbox) {
+    // Do something when checkbox state is changed.
+  }
+});
+```
+
 # Usage
 
 Include `jQuery` and `jquery.simple-checkbox-table.js` in your HTML code.
