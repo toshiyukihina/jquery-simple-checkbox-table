@@ -41,7 +41,7 @@ Include `jQuery` and `jquery.simple-checkbox-table.js` in your HTML code.
   <head>
     <title>...</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="../src/jquery.simple-checkbox-table.js"></script>
+    <script src="dist/jquery.simple-checkbox-table.js"></script>
   </head>
   <body>
     ...
