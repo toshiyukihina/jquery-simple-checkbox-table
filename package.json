@@ -1,9 +1,11 @@
 {
-  "name": "jquery-simple-checkbox-table",
+  "name": "jquery.simple-checkbox-table",
   "version": "0.1.0",
   "description": "Super simple checkbox table, which is provided as jQuery plugin.",
   "scripts": {
-    "test": "qunit"
+    "test": "grunt qunit",
+    "uglify": "grunt uglify",
+    "coveralls": "grunt coveralls"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/toshiyukihina/jquery-simple-checkbox-table/issues"
   },
-  "homepage": "https://github.com/toshiyukihina/jquery-simple-checkbox-table#readme"
+  "homepage": "https://github.com/toshiyukihina/jquery-simple-checkbox-table#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-coveralls": "^2.0.0",
+    "grunt-qunit-istanbul": "^1.0.0"
+  }
 }
