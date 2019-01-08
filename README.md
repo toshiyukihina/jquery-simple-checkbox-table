@@ -4,6 +4,8 @@ Super simple checkbox table, which is provided as jQuery plugin.
 
 ![simple_checkbox_table_screenshot](https://user-images.githubusercontent.com/1883527/50759761-405b2980-12a9-11e9-9a60-9125748d2a00.gif)
 
+Check out the [DEMO](https://toshiyukihina.github.io/jquery-simple-checkbox-table/).
+
 # API
 
 ## Methods
